@@ -78,5 +78,18 @@ class ChatComponent extends Component
             'receiver' => $message->receiver->name
         ];
     }
+    public function deleteMessage($id)
+    {
+        // Find the message by ID and delete it
+        $message = Message::find($id);
+        $message->delete();
+    
+        // Filter out the message from the collection
+        $this->messages = $this->messages->filter(function ($message) use ($id) {
+            return $message['id'] !== $id;
+        });
+    }
+    
+    
 
 }
