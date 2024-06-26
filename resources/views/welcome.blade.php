@@ -26,6 +26,7 @@
                             <livewire:welcome.navigation />
                         @endif
                     </header>
+                    <p class="text-center font-bold">Vayuz Task Complete</p>
 
                     <main class="mt-6">
                         <div class="grid gap-6 lg:grid-cols-2 lg:gap-8">
@@ -46,6 +47,8 @@
                                             document.getElementById('background').classList.add('!hidden');
                                         "
                                     />
+                                   
+                                   
                                     <img
                                         src="https://laravel.com/assets/img/welcome/docs-dark.svg"
                                         alt="Laravel documentation screenshot"
