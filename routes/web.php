@@ -9,6 +9,8 @@ Route::get('/dashboard', function () {
 
     foreach ($users as $user) {
         if ($user->last_seen_at) {
+          
+
             $lastSeen = Carbon::parse($user->last_seen_at);
             $user->is_online = $lastSeen->diffInMinutes(Carbon::now()) < 1;
         } else {
@@ -18,6 +20,7 @@ Route::get('/dashboard', function () {
 
     return view('dashboard', [
         'users' => $users,
+        
     ]);
 })->middleware(['auth', 'verified'])->name('dashboard');
 

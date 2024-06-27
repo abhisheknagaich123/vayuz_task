@@ -19,12 +19,15 @@ class UpdateLastSeen
     /**
      * Handle the event.
      */
+    
     public function handle($request, Closure $next)
-    {
-        if (Auth::check()) {
-            Auth::user()->update(['last_seen_at' => now()]);
-        }
+{
+    $response = $next($request);
 
-        return $next($request);
+    if (Auth::check()) {
+        Auth::user()->update(['last_seen_at' => now()]);
     }
+
+    return $response;
+}
 }
