@@ -6,3 +6,7 @@
 ![Screenshot (48)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/932bf5a1-4023-4bc9-a7b1-438d4de667de)
 ![Screenshot (50)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/f0371f58-d04a-4b24-a471-74aa16e5cc04)
 ![Screenshot (49)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/ada4c438-6492-4cda-a5f3-dcaf0c963a2c)
+![Screenshot (53)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/f2956e7a-22aa-4170-8c36-f2610688a7f8)
+![Screenshot (52)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/a5656fb9-f03b-4ca3-a9dc-00b7fc9576b8)
+![Screenshot (55)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/ec5c40ea-a0a6-4417-aaf2-0d3573498e4e)
+![Screenshot (54)](https://github.com/abhisheknagaich123/vayuz_task/assets/77282305/100b52b4-6a75-42e2-bb8f-cfa05c1f1df7)
